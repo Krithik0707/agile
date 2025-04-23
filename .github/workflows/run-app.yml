@@ -28,4 +28,5 @@ jobs:
 
       # Run the Flask application
       - name: Run Flask App
-        run: python app.py
+        run: |
+          python app.py &
